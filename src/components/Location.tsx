@@ -26,11 +26,11 @@ export default function Location() {
                   Address
                 </p>
                 <p className="text-[#1A1A1A]/80 leading-relaxed">
-                  [Studio address]
+                  Dehavilland Studios
                   <br />
-                  Clapton, London
+                  Theydon Road
                   <br />
-                  [Postcode]
+                  London E5
                 </p>
               </div>
               <div>
@@ -38,7 +38,11 @@ export default function Location() {
                   Overground
                 </p>
                 <p className="text-[#1A1A1A]/80">
-                  Clapton · 5 min walk
+                  Clapton — 8 min walk
+                  <br />
+                  <span className="text-[#1A1A1A]/50 text-sm">
+                    Direct services to Liverpool Street
+                  </span>
                 </p>
               </div>
               <div>
@@ -54,24 +58,42 @@ export default function Location() {
                   By Car
                 </p>
                 <p className="text-[#1A1A1A]/80">
-                  On-site parking available. Easy access from the A107.
+                  Designated parking in the building&apos;s car park.
+                  <br />
+                  <span className="text-[#1A1A1A]/50 text-sm">
+                    Additional street parking on Theydon Road.
+                  </span>
                 </p>
               </div>
             </div>
           </div>
 
           <div className="sticky top-28">
-            <div className="aspect-square bg-[#1A1A1A]/8 rounded-2xl flex items-center justify-center border border-[#1A1A1A]/10">
+            <div className="aspect-square bg-[#1A1A1A]/6 rounded-2xl flex items-center justify-center border border-[#1A1A1A]/10">
               <div className="text-center">
                 <div className="w-3 h-3 rounded-full bg-[#C5F135] mx-auto mb-3" />
                 <p className="text-[#1A1A1A]/40 text-xs uppercase tracking-widest">
-                  Clapton, Hackney
+                  Dehavilland Studios, E5
                 </p>
               </div>
             </div>
             <p className="mt-3 text-xs text-[#1A1A1A]/30 text-center">
-              Map placeholder — add Google Maps embed here
+              Map coming soon
             </p>
+
+            <div className="mt-8 p-6 border border-[#1A1A1A]/10 rounded-2xl">
+              <p className="text-xs uppercase tracking-widest text-[#1A1A1A]/40 mb-3">
+                The Building
+              </p>
+              <p className="text-sm text-[#1A1A1A]/60 leading-relaxed">
+                Dehavilland Studios was designed in the 1930s by engineer Sir
+                Owen Williams and served as a WWII &lsquo;shadow factory&rsquo;,
+                producing aircraft components for the famous de Havilland
+                Mosquito. Today it&apos;s one of East London&apos;s most
+                striking pieces of modernist architecture — raw concrete,
+                steel-framed windows, and views over the River Lea.
+              </p>
+            </div>
           </div>
         </div>
       </div>

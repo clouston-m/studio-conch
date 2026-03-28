@@ -1,51 +1,51 @@
 const features = [
   {
     number: "01",
-    title: "Natural Daylight",
+    title: "Double-Aspect Natural Light",
     description:
-      "Generous windows flood the space with beautiful natural light throughout the day.",
+      "South and west-facing steel-framed windows flood the space with natural light throughout the day — morning softness through to golden-hour warmth.",
   },
   {
     number: "02",
-    title: "High Ceilings",
+    title: "Soaring Concrete Ceilings",
     description:
-      "Impressive ceiling height gives you the freedom to shoot large-scale setups and creative rigs.",
+      "Exposed concrete ceilings overhead and raw concrete pillars throughout give instant industrial character — no set-building required.",
   },
   {
     number: "03",
-    title: "Seamless Backgrounds",
+    title: "1,400 sq ft Open-Plan",
     description:
-      "White, cream, and black seamless paper available. Cyc wall on request.",
+      "A wide, column-free floorplan on the second floor of a corner unit. Fully flexible — arrange it however your shoot demands.",
   },
   {
     number: "04",
-    title: "Equipment Available",
+    title: "River Lea Views",
     description:
-      "Studio lighting, stands, and grip gear available to hire alongside your booking.",
+      "The building towers over the River Lea. Floor-to-ceiling windows frame the water and sky — a backdrop unlike any other in East London.",
   },
   {
     number: "05",
-    title: "Changing Room",
+    title: "Plywood & Concrete Floors",
     description:
-      "Private changing area and hanging space for talent and wardrobe.",
+      "Soft grey-finished plywood underfoot with raw concrete detailing. Clean lines, no fuss — a neutral base that works with any aesthetic.",
   },
   {
     number: "06",
-    title: "Kitchen Access",
+    title: "White Kitchen",
     description:
-      "Fully equipped kitchen for refreshments, catering, and on-set prep.",
+      "White cabinetry with polished granite surfaces and integrated appliances. Ideal for food, product, and lifestyle shoots.",
   },
   {
     number: "07",
-    title: "Private Parking",
+    title: "Lift & Easy Access",
     description:
-      "On-site parking available for crew and equipment vehicles.",
+      "Second-floor studio with both stair and lift access. Getting kit in and out is straightforward — even for larger productions.",
   },
   {
     number: "08",
-    title: "High-Speed WiFi",
+    title: "Dedicated Parking",
     description:
-      "Gigabit internet connection throughout — tether, stream, and share without limits.",
+      "A designated parking space in the building's car park. More street parking available on Theydon Road.",
   },
 ];
 
@@ -70,9 +70,10 @@ export default function Features() {
               need to create.
             </h2>
           </div>
-          <p className="md:max-w-xs text-[#1A1A1A]/60 text-sm leading-relaxed">
-            Studio Conch is designed around the needs of photographers,
-            filmmakers, and content creators. Hire by the half-day or full day.
+          <p className="md:max-w-sm text-[#1A1A1A]/60 text-sm leading-relaxed">
+            Over 1,400 sq ft of raw industrial space in a 1930s former aircraft
+            factory — designed by Sir Owen Williams and overlooking the River
+            Lea. Available for photography, film, and content creation.
           </p>
         </div>
 

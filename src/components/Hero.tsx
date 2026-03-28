@@ -25,14 +25,15 @@ export default function Hero() {
             <p className="text-xs uppercase tracking-widest text-[#F5F0E8]/40 mb-2">
               Location
             </p>
-            <p className="text-lg font-medium">Clapton, Hackney</p>
-            <p className="text-lg text-[#F5F0E8]/60">London, UK</p>
+            <p className="text-lg font-medium">Theydon Road, Clapton</p>
+            <p className="text-lg text-[#F5F0E8]/60">London E5</p>
           </div>
 
           <div className="md:max-w-xs">
             <p className="text-[#F5F0E8]/60 text-sm leading-relaxed mb-6">
-              A creative studio space available for photography, film, and
-              content creation — in the heart of East London.
+              1,400 sq ft of raw industrial space in a 1930s former aircraft
+              factory — overlooking the River Lea with double-aspect natural
+              light all day.
             </p>
             <div className="flex flex-wrap gap-3">
               <a
