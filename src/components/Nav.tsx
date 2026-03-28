@@ -22,7 +22,7 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a
           href="#"
-          style={{ fontFamily: "var(--font-dm-serif), serif" }}
+          style={{ fontFamily: "var(--font-space-grotesk), sans-serif" }}
           className={`text-xl tracking-tight transition-colors duration-300 ${
             scrolled ? "text-[#1A1A1A]" : "text-[#F5F0E8]"
           }`}

@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto w-full flex-1 flex flex-col justify-center">
         <h1
           style={{
-            fontFamily: "var(--font-dm-serif), serif",
+            fontFamily: "var(--font-space-grotesk), sans-serif",
             fontSize: "clamp(4.5rem, 16vw, 17rem)",
             lineHeight: 0.9,
             letterSpacing: "-0.02em",

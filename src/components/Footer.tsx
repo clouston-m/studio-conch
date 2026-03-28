@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <p
-            style={{ fontFamily: "var(--font-dm-serif), serif" }}
+            style={{ fontFamily: "var(--font-space-grotesk), sans-serif" }}
             className="text-2xl mb-1"
           >
             Studio Conch

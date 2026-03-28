@@ -60,7 +60,7 @@ export default function Features() {
             </p>
             <h2
               style={{
-                fontFamily: "var(--font-dm-serif), serif",
+                fontFamily: "var(--font-space-grotesk), sans-serif",
                 fontSize: "clamp(2.5rem, 6vw, 6rem)",
                 lineHeight: 0.95,
               }}
