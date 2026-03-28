@@ -16,7 +16,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap gap-6 text-sm text-[#F5F0E8]/50">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/studio.conch/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#F5F0E8] transition-colors"
@@ -24,10 +24,10 @@ export default function Footer() {
             Instagram
           </a>
           <a
-            href="mailto:hello@studioconch.com"
+            href="mailto:hello@studioconch.co.uk"
             className="hover:text-[#F5F0E8] transition-colors"
           >
-            hello@studioconch.com
+            hello@studioconch.co.uk
           </a>
         </div>
 
