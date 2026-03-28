@@ -62,12 +62,19 @@ export default function Enquire() {
             </div>
             <div>
               <label className="block text-xs uppercase tracking-widest text-[#1A1A1A]/50 mb-3">
-                Preferred Date
+                Preferred Dates
               </label>
-              <input
-                type="date"
-                className="w-full bg-transparent border-b-2 border-[#1A1A1A]/30 pb-3 text-[#1A1A1A]/70 focus:outline-none focus:border-[#1A1A1A] transition-colors"
-              />
+              <div className="flex items-center gap-3">
+                <input
+                  type="date"
+                  className="w-full bg-transparent border-b-2 border-[#1A1A1A]/30 pb-3 text-[#1A1A1A]/70 focus:outline-none focus:border-[#1A1A1A] transition-colors"
+                />
+                <span className="text-[#1A1A1A]/40 pb-3">→</span>
+                <input
+                  type="date"
+                  className="w-full bg-transparent border-b-2 border-[#1A1A1A]/30 pb-3 text-[#1A1A1A]/70 focus:outline-none focus:border-[#1A1A1A] transition-colors"
+                />
+              </div>
             </div>
           </div>
 

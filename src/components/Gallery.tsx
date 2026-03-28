@@ -1,4 +1,8 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
+import Lightbox from "./Lightbox";
 
 const images = [
   { src: "/images/Frame 16.png", alt: "Living space with natural light and green sofa" },
@@ -12,6 +16,14 @@ const images = [
 ];
 
 export default function Gallery() {
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+
+  const handlePrev = () =>
+    setLightboxIndex((i) => (i === null ? 0 : (i - 1 + images.length) % images.length));
+
+  const handleNext = () =>
+    setLightboxIndex((i) => (i === null ? 0 : (i + 1) % images.length));
+
   return (
     <section id="gallery" className="py-28 px-6 bg-[#1A1A1A]">
       <div className="max-w-7xl mx-auto">
@@ -33,19 +45,33 @@ export default function Gallery() {
         </div>
 
         <div className="columns-2 md:columns-3 gap-2 space-y-2">
-          {images.map((image) => (
-            <div key={image.src} className="break-inside-avoid relative overflow-hidden rounded-lg">
+          {images.map((image, i) => (
+            <div
+              key={image.src}
+              className="break-inside-avoid relative overflow-hidden rounded-lg cursor-pointer group"
+              onClick={() => setLightboxIndex(i)}
+            >
               <Image
                 src={image.src}
                 alt={image.alt}
                 width={800}
                 height={800}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transition-opacity duration-200 group-hover:opacity-80"
               />
             </div>
           ))}
         </div>
       </div>
+
+      {lightboxIndex !== null && (
+        <Lightbox
+          images={images}
+          index={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+          onPrev={handlePrev}
+          onNext={handleNext}
+        />
+      )}
     </section>
   );
 }

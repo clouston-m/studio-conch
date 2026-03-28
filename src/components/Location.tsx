@@ -29,9 +29,9 @@ export default function Location() {
                 <p className="text-[#1A1A1A]/80 leading-relaxed">
                   Dehavilland Studios
                   <br />
-                  Theydon Road
+                  20 Theydon Road
                   <br />
-                  London E5
+                  London E5 9NY
                 </p>
               </div>
               <div>
@@ -70,17 +70,18 @@ export default function Location() {
           </div>
 
           <div className="sticky top-28">
-            <div className="aspect-square bg-[#1A1A1A]/6 rounded-2xl flex items-center justify-center border border-[#1A1A1A]/10">
-              <div className="text-center">
-                <div className="w-3 h-3 rounded-full bg-[#C5F135] mx-auto mb-3" />
-                <p className="text-[#1A1A1A]/40 text-xs uppercase tracking-widest">
-                  Dehavilland Studios, E5
-                </p>
-              </div>
+            <div className="overflow-hidden rounded-2xl">
+              <iframe
+                src="https://maps.google.com/maps?q=20+Theydon+Road,+London+E5+9NY&output=embed&z=16"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Studio Conch location"
+              />
             </div>
-            <p className="mt-3 text-xs text-[#1A1A1A]/30 text-center">
-              Map coming soon
-            </p>
 
             <div className="mt-8 p-6 border border-[#1A1A1A]/10 rounded-2xl">
               <p className="text-xs uppercase tracking-widest text-[#1A1A1A]/40 mb-3">
@@ -91,8 +92,8 @@ export default function Location() {
                 Owen Williams and served as a WWII &lsquo;shadow factory&rsquo;,
                 producing aircraft components for the famous de Havilland
                 Mosquito. Today it&apos;s one of East London&apos;s most
-                striking pieces of modernist architecture — raw concrete,
-                steel-framed windows, and views over the River Lea.
+                striking pieces of modernist architecture — raw concrete
+                and steel-framed windows.
               </p>
             </div>
           </div>

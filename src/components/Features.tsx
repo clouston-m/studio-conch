@@ -19,12 +19,6 @@ const features = [
   },
   {
     number: "04",
-    title: "River Lea Views",
-    description:
-      "The building towers over the River Lea. Floor-to-ceiling windows frame the water and sky — a backdrop unlike any other in East London.",
-  },
-  {
-    number: "05",
     title: "Plywood & Concrete Floors",
     description:
       "Soft grey-finished plywood underfoot with raw concrete detailing. Clean lines, no fuss — a neutral base that works with any aesthetic.",
@@ -51,7 +45,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="space" className="py-28 px-6 bg-[#F5F0E8]">
+    <section id="features" className="py-28 px-6 bg-[#F5F0E8]">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
@@ -73,8 +67,8 @@ export default function Features() {
           </div>
           <p className="md:max-w-sm text-[#1A1A1A]/60 text-sm leading-relaxed">
             Over 1,400 sq ft of raw industrial space in a 1930s former aircraft
-            factory — designed by Sir Owen Williams and overlooking the River
-            Lea. Available for photography, film, and content creation.
+            factory designed by Sir Owen Williams. Available for photography,
+            film, and content creation.
           </p>
         </div>
 

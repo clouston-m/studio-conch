@@ -28,8 +28,7 @@ export default function Hero() {
         </h1>
         <p className="text-[#F5F0E8] text-lg leading-relaxed mt-6 max-w-sm">
           1,400 sq ft of raw industrial space in a 1930s former aircraft
-          factory — overlooking the River Lea with double-aspect natural
-          light all day.
+          factory, with double-aspect natural light all day.
         </p>
       </div>
 
@@ -46,7 +45,7 @@ export default function Hero() {
           <div>
             <div className="flex flex-row gap-3">
               <a
-                href="#space"
+                href="#features"
                 className="text-sm font-semibold px-7 py-3 rounded-full border border-[#F5F0E8]/40 text-[#F5F0E8] hover:border-[#F5F0E8] transition-colors duration-200"
               >
                 Explore the Space
