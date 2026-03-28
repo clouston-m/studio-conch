@@ -22,7 +22,7 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a
           href="#"
-          style={{ fontFamily: "var(--font-space-grotesk), sans-serif" }}
+          style={{ fontFamily: "var(--font-work-sans), sans-serif", fontWeight: 600 }}
           className={`text-xl tracking-tight transition-colors duration-300 ${
             scrolled ? "text-[#1A1A1A]" : "text-[#F5F0E8]"
           }`}
@@ -30,7 +30,7 @@ export default function Nav() {
           Studio Conch
         </a>
         <nav className="hidden md:flex items-center gap-8">
-          {["Space", "Gallery", "Location"].map((link) => (
+          {["Features", "Gallery", "Location"].map((link) => (
             <a
               key={link}
               href={`#${link.toLowerCase()}`}

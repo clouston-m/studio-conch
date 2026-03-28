@@ -4,8 +4,12 @@
   --color-cream: #F5F0E8;
   --color-ink: #1A1A1A;
   --color-lime: #C5F135;
-  --font-display: var(--font-space-grotesk);
+  --font-display: var(--font-work-sans);
   --font-sans: var(--font-space-grotesk);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

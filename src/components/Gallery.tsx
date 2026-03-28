@@ -1,55 +1,49 @@
+import Image from "next/image";
+
+const images = [
+  { src: "/images/Frame 16.png", alt: "Living space with natural light and green sofa" },
+  { src: "/images/DSC08359.JPG", alt: "Window light shadows across the studio wall" },
+  { src: "/images/Frame 19.png", alt: "Kitchen and open-plan space" },
+  { src: "/images/Frame 18.png", alt: "Window shadow patterns on white wall" },
+  { src: "/images/Frame 20.png", alt: "Wooden sculpture on sideboard with mirror" },
+  { src: "/images/DSC08392.JPG", alt: "Kitchen with gas range and natural light" },
+  { src: "/images/Frame 22.png", alt: "Bookshelf with vinyl records and framed print" },
+  { src: "/images/Frame 21.png", alt: "Kitchen with window light" },
+];
+
 export default function Gallery() {
   return (
     <section id="gallery" className="py-28 px-6 bg-[#1A1A1A]">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
-          <div>
-            <p className="text-xs uppercase tracking-widest text-[#F5F0E8]/40 mb-4">
-              Gallery
-            </p>
-            <h2
-              style={{
-                fontFamily: "var(--font-space-grotesk), sans-serif",
-                fontSize: "clamp(2.5rem, 6vw, 6rem)",
-                lineHeight: 0.95,
-                color: "#F5F0E8",
-              }}
-            >
-              See the space.
-            </h2>
-          </div>
-          <p className="md:max-w-xs text-[#F5F0E8]/40 text-sm leading-relaxed">
-            Photos coming soon. Follow us on Instagram for the latest from
-            Studio Conch.
+        <div className="mb-12">
+          <p className="text-xs uppercase tracking-widest text-[#F5F0E8]/40 mb-4">
+            Gallery
           </p>
+          <h2
+            style={{
+              fontFamily: "var(--font-work-sans), sans-serif",
+              fontWeight: 600,
+              fontSize: "clamp(2.5rem, 6vw, 6rem)",
+              lineHeight: 0.95,
+              color: "#F5F0E8",
+            }}
+          >
+            See the space.
+          </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-          <div className="md:row-span-2 aspect-[3/4] md:aspect-auto bg-[#2A2A2A] rounded-xl flex items-center justify-center">
-            <span className="text-[#F5F0E8]/15 text-xs uppercase tracking-widest">
-              Photo
-            </span>
-          </div>
-          <div className="aspect-square bg-[#2A2A2A] rounded-xl flex items-center justify-center">
-            <span className="text-[#F5F0E8]/15 text-xs uppercase tracking-widest">
-              Photo
-            </span>
-          </div>
-          <div className="aspect-square bg-[#C5F135]/10 rounded-xl flex items-center justify-center">
-            <span className="text-[#F5F0E8]/15 text-xs uppercase tracking-widest">
-              Photo
-            </span>
-          </div>
-          <div className="aspect-square bg-[#2A2A2A] rounded-xl flex items-center justify-center">
-            <span className="text-[#F5F0E8]/15 text-xs uppercase tracking-widest">
-              Photo
-            </span>
-          </div>
-          <div className="aspect-square bg-[#2A2A2A] rounded-xl flex items-center justify-center">
-            <span className="text-[#F5F0E8]/15 text-xs uppercase tracking-widest">
-              Photo
-            </span>
-          </div>
+        <div className="columns-2 md:columns-3 gap-2 space-y-2">
+          {images.map((image) => (
+            <div key={image.src} className="break-inside-avoid relative overflow-hidden rounded-lg">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={800}
+                height={800}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>

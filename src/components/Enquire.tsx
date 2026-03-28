@@ -9,7 +9,8 @@ export default function Enquire() {
         </p>
         <h2
           style={{
-            fontFamily: "var(--font-space-grotesk), sans-serif",
+            fontFamily: "var(--font-work-sans), sans-serif",
+            fontWeight: 600,
             fontSize: "clamp(2.5rem, 6vw, 6rem)",
             lineHeight: 0.95,
           }}

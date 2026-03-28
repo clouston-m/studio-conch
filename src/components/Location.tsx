@@ -9,7 +9,8 @@ export default function Location() {
             </p>
             <h2
               style={{
-                fontFamily: "var(--font-space-grotesk), sans-serif",
+                fontFamily: "var(--font-work-sans), sans-serif",
+            fontWeight: 600,
                 fontSize: "clamp(2.5rem, 5vw, 5.5rem)",
                 lineHeight: 0.95,
               }}
