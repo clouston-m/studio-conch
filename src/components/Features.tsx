@@ -76,7 +76,7 @@ export default function Features() {
           {features.map((feature) => (
             <div
               key={feature.number}
-              className="bg-[#F5F0E8] p-7 hover:bg-[#C5F135] transition-colors duration-300 group cursor-default"
+              className="bg-[#F5F0E8] p-7 hover:bg-[#FDDF7D] transition-colors duration-300 group cursor-default"
             >
               <p className="text-xs text-[#1A1A1A]/30 group-hover:text-[#1A1A1A]/40 mb-4 font-mono">
                 {feature.number}

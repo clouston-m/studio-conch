@@ -45,10 +45,10 @@ export default function Nav() {
           ))}
           <a
             href="#enquire"
-            className={`text-xs tracking-widest uppercase font-semibold px-5 py-2.5 rounded-full transition-all duration-200 ${
+            className={`text-xs tracking-widest uppercase font-semibold px-5 py-2.5  transition-all duration-200 ${
               scrolled
-                ? "bg-[#1A1A1A] text-[#F5F0E8] hover:bg-[#C5F135] hover:text-[#1A1A1A]"
-                : "bg-[#F5F0E8] text-[#1A1A1A] hover:bg-[#C5F135]"
+                ? "bg-[#1A1A1A] text-[#F5F0E8] hover:bg-[#FDDF7D] hover:text-[#1A1A1A]"
+                : "bg-[#F5F0E8] text-[#1A1A1A] hover:bg-[#FDDF7D]"
             }`}
           >
             Enquire

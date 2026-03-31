@@ -4,20 +4,20 @@ export default function Hero() {
   return (
     <section className="relative text-[#F5F0E8] min-h-screen flex flex-col justify-between px-6 pt-28 pb-12">
       <Image
-        src="/images/hero.JPG"
+        src="/images/wide_1.jpg"
         alt="Studio Conch interior — natural light flooding through steel-framed windows"
         fill
         priority
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-[#1A1A1A]/50" />
+      <div className="absolute inset-0 bg-[#1A1A1A]/35" />
 
       <div className="relative max-w-7xl mx-auto w-full flex-1 flex flex-col justify-center">
         <h1
           style={{
             fontFamily: "var(--font-work-sans), sans-serif",
             fontWeight: 600,
-            fontSize: "clamp(2.5rem, 8vw, 9rem)",
+            fontSize: "clamp(4rem, 8vw, 9rem)",
             lineHeight: 0.9,
             letterSpacing: "-0.02em",
           }}
@@ -46,13 +46,13 @@ export default function Hero() {
             <div className="flex flex-row gap-3">
               <a
                 href="#features"
-                className="text-sm font-semibold px-7 py-3 rounded-full border border-[#F5F0E8]/40 text-[#F5F0E8] hover:border-[#F5F0E8] transition-colors duration-200"
+                className="text-sm font-semibold px-7 py-3  border border-[#F5F0E8]/40 text-[#F5F0E8] hover:border-[#F5F0E8] transition-colors duration-200"
               >
                 Explore the Space
               </a>
               <a
                 href="#enquire"
-                className="text-sm font-semibold px-7 py-3 rounded-full bg-[#C5F135] text-[#1A1A1A] hover:bg-[#F5F0E8] transition-colors duration-200"
+                className="text-sm font-semibold px-7 py-3  bg-[#FDDF7D] text-[#1A1A1A] hover:bg-[#F5F0E8] transition-colors duration-200"
               >
                 Make an Enquiry
               </a>

@@ -21,7 +21,7 @@ export default function Enquire() {
   }
 
   return (
-    <section id="enquire" className="py-28 px-6 bg-[#C5F135]">
+    <section id="enquire" className="py-28 px-6 bg-[#FDDF7D]">
       <div className="max-w-3xl mx-auto">
         <p className="text-xs uppercase tracking-widest text-[#1A1A1A]/50 mb-4">
           Get in Touch
@@ -135,7 +135,7 @@ export default function Enquire() {
             <button
               type="submit"
               disabled={status === "submitting"}
-              className="bg-[#1A1A1A] text-[#F5F0E8] text-sm font-semibold px-10 py-4 rounded-full hover:bg-[#2D2D2D] transition-colors duration-200 disabled:opacity-50"
+              className="bg-[#1A1A1A] text-[#F5F0E8] text-sm font-semibold px-10 py-4  hover:bg-[#2D2D2D] transition-colors duration-200 disabled:opacity-50"
             >
               {status === "submitting" ? "Sending…" : "Send Enquiry →"}
             </button>
